@@ -1,0 +1,19 @@
+{
+    "name": "jaapverloop/rourke",
+    "description": "Simple PCRE-based router",
+    "keywords": ["router", "routing", "PCRE"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaap Verloop",
+            "email": "j.verloop@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {"Rourke": "src/"}
+    }
+}
